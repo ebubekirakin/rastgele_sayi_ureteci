@@ -74,4 +74,4 @@ Program çalıştığında, her sayının nasıl türetildiğini gösteren şeff
 ```
 
 
-Geliştirici: Ebubekir AKIN
+Geliştirici: Ebubekir AKIN   (230541132)

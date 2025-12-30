@@ -57,7 +57,7 @@ class SaniyeBazliRNG:
         return sonuc, analiz_metni
 
 # --- KULLANIM ---
-print("--- DETAYLI COLLATZ ÜRETECİ (FİNAL VERSİYON) ---")
+print("--- COLLATZ ÜRETECİ ---")
 
 try:
     alt = int(input("En küçük sayı: "))
@@ -74,4 +74,5 @@ try:
         print("="*40)
 
 except ValueError:
+
     print("Sadece sayı giriniz.")

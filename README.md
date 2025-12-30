@@ -73,5 +73,9 @@ Program çalıştığında, her sayının nasıl türetildiğini gösteren şeff
 
 ```
 
+## Akış Diyagramı
+<img width="2484" height="6028" alt="image" src="https://github.com/user-attachments/assets/b388181c-0b52-4010-bfb1-5c631d60635a" />
+
+
 
 Geliştirici: Ebubekir AKIN   (230541132)

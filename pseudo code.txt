@@ -1,0 +1,41 @@
+BAŞLA
+
+  1. BAŞLANGIÇ AYARLARI
+     Tohum = Bilgisayarın O Anki Saniyesi
+     Eğer Tohum 0 ise -> Tohum = 1 yap
+
+  2. KULLANICI GİRİŞİ
+     OKU: Alt_Sınır, Üst_Sınır, Adet
+
+  3. ANA DÖNGÜ (İstenen 'Adet' kadar tekrarla)
+     
+     Ham_Sayı = 0
+     
+     DÖNGÜ (10 Kez - Karıştırma İşlemi):
+        # Collatz Motoru
+        Eğer Tohum ÇİFT ise -> Tohum = Tohum / 2
+        Eğer Tohum TEK ise  -> Tohum = 3 * Tohum + 1
+        
+        # Kısır Döngü Kırıcı (Asal Sayı Ekleme)
+        Eğer Tohum <= 4 ise -> Tohum = Tohum + 13
+        
+        # Basamak Yapıştırma Yöntemi
+        Son_Rakam = Tohum MOD 10
+        Ham_Sayı  = (Ham_Sayı * 10) + Son_Rakam
+     
+     DÖNGÜ BİTİŞİ
+
+     # Sonucu İstenen Aralığa Sığdırma
+     Aralık = Üst_Sınır - Alt_Sınır + 1
+     Sonuç  = (Ham_Sayı MOD Aralık) + Alt_Sınır
+     
+     YAZDIR: Sonuç, İşlem Detayları
+
+     # KRİTİK ADIM: MUTASYON (Tekrarı Önleme)
+     # Bir sonraki sayı aynı çıkmasın diye Tohum'u değiştiriyoruz
+     Değişken_Tekme = (Ham_Sayı MOD 60) + 7
+     Tohum = Tohum + Değişken_Tekme
+
+  ANA DÖNGÜ BİTİŞİ
+
+BİTİR

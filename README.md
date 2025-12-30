@@ -74,7 +74,7 @@ Program çalıştığında, her sayının nasıl türetildiğini gösteren şeff
 ```
 
 ## Akış Diyagramı
-<img width="448" height="1000" alt="image" src="https://github.com/user-attachments/assets/cf41afab-718b-45cd-884e-c9dabc4698ce" />
+<img width="500" height="1000" alt="image" src="https://github.com/user-attachments/assets/e0d4f9e8-04b2-4e1b-b419-a1e27fb156fd" />
 
 
 
